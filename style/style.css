@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey|Allerta+Stencil|Dancing+Script|Gloria+Hallelujah|Indie+Flower|Permanent+Marker|Sue+Ellen+Francisco');
+
+body
+{
+
+}
+
+.tasklist {
+  border: 1px;
+  border-style: solid;
+  -height: 30%;
+  -width: 30%;
+  background-color: lightblue;
+  -float: none;
+
+}
+
+.tasklist .controler {
+  padding-top: 20px;
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.tasklist input {
+  font-size: 16px;
+  -font-family: 'Indie Flower', cursive;
+  -font-family: 'Gloria Hallelujah', cursive;
+  -font-family: 'Dancing Script', cursive;
+  font-family: "Allerta Stencil", sans-serif;
+  -font-family: 'Permanent Marker', cursive;
+  -font-family: 'Sue Ellen Francisco', cursive;
+  width: 60%;
+  float: none;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+
+.tasklist .controler .selector-priority {
+  padding-top: 10px;
+  background-color: green;
+  float: none;
+}
+
+.tasklist .controler .selector-priority select {
+  width: 20%;
+  height: 30px;
+  font-size: 15px;
+  background-color: yellow;
+  -font-family: times;
+}
+
+.list {
+  margin-left: 30px;
+  background-color: grey;
+  width: 600px;
+  -font-family: 'Indie Flower', cursive;
+  -font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Happy Monkey', cursive;
+
+
+}
+
+.list div {
+
+
+  line-height: 35px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  background-color: white;
+  width: 100%;
+
+
+}
+
+.list div:hover {
+
+  list-style-type: circle;
+  background-color: lightgreen;
+  -border: 1px solid;
+
+
+}
+
+.list div:active {
+
+
+
+}
+
+.list div.listactive{
+  list-style-type: circle;
+  background-color: lightgreen;
+  border: 1px solid;
+}
+
+
+
+.listdel {
+  -moz-transform: skewX(23deg);
+  -webkit-transform: skewX(23deg);
+  -o-transform: skewX(23deg);
+  -ms-transform: skewX(23deg);
+  transform: skewX(23deg);
+
+}
+
+
+
+label {
+
+    -display: none;
+    display: inline-block;
+    opacity: 0.3;
+    text-decoration: none;
+    padding: 2px 4px;
+    font-family: 'Helvetica Neue', helvetica, sans-serif;
+    background-color: red;
+    font-size: 8px;
+    line-height: 10px;
+    height: 10px;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 6px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0;
+}
+
+  label[priority="Primary"] {
+   background-color: grey;
+ }
+
+ label[priority="Success"] {
+   background-color: lightgreen;
+ }
+
+label:hover {
+  opacity: 1;
+}
+
+
+.list div .taskmenu {
+  -float: right;
+  background-color: lightgreen;
+  color: blue;
+  -border-bottom: 1px solid;
+  -border-right: 1px solid;
+  -z-index: 1;
+}
+
+
+
+
+
+
+
+button
+{
+  height: 35px;
+  width: 75px;
+  background-color: red;
+  float: none;
+  border: 1px;
+  border-style: solid;
+  border-radius: 7px 7px;
+  box-shadow: black 4px 6px 12px;
+}
+
+button:hover
+{
+  box-shadow: black 0px 0px 0px;
+  -background-color: black;
+  -color: white;
+  -moz-transform: scale(2) rotate(70deg);
+  -webkit-transform: scale(2) rotate(70deg);
+  -o-transform: scale(2) rotate(70deg);
+  -ms-transform: scale(2) rotate(70deg);
+  transform: scale(2) rotate(70deg);
+}
